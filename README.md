@@ -12,81 +12,8 @@ Our contenders begin the race at square 1 of 70 squares. Each square represents 
 
 A clock ticks once per second. With each tick of the clock, your application should adjust the position of the animals according to the rules in the table below. Use variables to keep track of the positions of the animals (i.e. position numbers are 1-70). Start each animal at position 1 (the "starting gate"). If an animal slips left before square 1, move it back to square 1. 
 
- 
+![image](https://github.com/user-attachments/assets/2a9f05ba-7804-483a-8110-b32c4a05a81c)
 
-Animal
-
-Move type
-
-Percentage of the time
-
-Actual move
-
-Tortoise
-
-Fast plod
-
-50%
-
-3 squares to the right
-
- 
-
-Slip
-
-20%
-
-6 squares to the left
-
- 
-
-Slow plod
-
-30%
-
-1 square to the right
-
-Hare
-
-Sleep
-
-20%
-
-No move at all
-
- 
-
-Big hop
-
-20%
-
-9 squares to the right
-
- 
-
-Big slip
-
-10%
-
-12 squares to the left
-
- 
-
-Small hop
-
-30%
-
-1 square to the right
-
- 
-
-Small slip
-
-20%
-
-2 squares to the left
-
- 
 
 Create two functions that generate the percentages in the table for the tortoise and the hare, respectively, by producing a random integer i in the range 1 <= i <= 10. In the function for the tortoise, perform a “fast plod” when 1 <= i <= 5, a “slip” when 6 <= i <= 7 or a “slow plod” when 8 <= i <= 10. Use a similar technique in the function for the hare.
 
