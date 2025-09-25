@@ -1,4 +1,4 @@
-# Tortoise and Hare Final Project
+# Tortoise and Hare Project
 # Maya Thomas-Fubler
 
 import random
